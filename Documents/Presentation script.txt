@@ -1,0 +1,62 @@
+slide 1
+
+Goodmorning everyone and welcome to my presentation today on the topic
+
+slide 2
+
+Passing strctures to functions
+
+slide 3
+
+so What is a structure?
+A structure is a user defined data type in C/C++. A structure creates a data type that can be used to group items of possibly different types into a single type.
+
+slide 4
+
+How to create a structure?
+‘struct’ keyword is used to create a structure and Following is an example.
+
+slide 5
+
+now, passing a struct to a function
+
+A structure can be passed to any function from main function or from any sub function.
+
+Structure definition will be available within the function only.
+It won’t be available to other functions unless it is passed to those functions by value or by address(reference).
+
+Else, we have to declare the structure variable globally. That means, structure variable should be declared outside the main function. So, this structure will be visible to all the functions in our C program.
+
+slide 6
+
+ways to pass structs to a function
+
+It can be done in below 3 ways.
+
+
+no 1) Passing structure to a function by value
+mo 2) Passing structure to a function by address(reference)
+and no 3) No need to pass a structure just Declare the structure globally.
+
+slide 7
+
+In this program, the whole structure is passed to another function by value. It means the whole structure is passed to another function with all members and their values. So, this structure can be accessed from called function. This concept is very useful while writing very big programs in C.
+
+slide 8
+
+In this program, the whole structure is passed to another function by address. It means only the address of the structure is passed to another function. The whole structure is not passed to another function with all members and their values. So, this structure can be accessed from called function by its address.
+
+slide 9
+
+Structure variables also can be declared as global variables as we declare other variables in C. So, When a structure variable is declared globally, then it is visible to all the functions in our program. In this scenario, we don’t need to pass the structure to any function separately.
+
+slide 10
+
+so what did you learn today?
+you have learned 
+what a struct is
+how to create a struct
+and how to pass structs to functions by 3 different methods in brief.
+
+that is all from my side
+have a good day.
