@@ -1,0 +1,23 @@
+h1{
+    color: blueviolet;
+}
+
+a{
+    color: darkgreen;
+}
+
+p{
+    color: violet;
+}
+
+h2{
+    color: teal;
+}
+
+section{
+    color: tomato;
+}
+
+h1,a,p,h2,nav,section{
+    text-align: center;
+}
